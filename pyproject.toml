@@ -1,0 +1,20 @@
+[project]
+name = "revanced-bot"
+version = "1.0.0"
+description = "Telegram bot that uploads ReVanced APK releases to a channel"
+requires-python = ">=3.12"
+dependencies = [
+    "kurigram>=2.0",
+    "tgcrypto>=1.2",
+    "httpx>=0.28",
+    "pydantic-settings>=2.0",
+    "uvloop>=0.21",
+    "structlog>=24.0",
+]
+
+
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

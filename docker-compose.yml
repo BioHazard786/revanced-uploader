@@ -1,0 +1,8 @@
+services:
+  revanced-bot:
+    build: .
+    container_name: revanced-bot
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
