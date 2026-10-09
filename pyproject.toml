@@ -12,9 +12,6 @@ dependencies = [
     "structlog>=24.0",
 ]
 
-
-
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
